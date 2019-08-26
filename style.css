@@ -1,5 +1,22 @@
-body{
-    background-color: chartreuse;
+*{
+    box-sizing: border-box
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+    
+}
+.logo{
+    height:100px
+}
 
-
+.nav-bar{
+    display: flex;
+    align-items: center;
+}
+.nav-bar a{
+    padding-right: 40px;
+    text-decoration: none;
+    color: grey
 }
