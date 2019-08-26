@@ -1,6 +1,11 @@
 *{
     box-sizing: border-box
 }
+body{
+    width:100%;
+    margin: 0 auto;
+    padding:0
+}
 .header{
     display: flex;
     justify-content: space-around;
@@ -20,3 +25,23 @@
     text-decoration: none;
     color: grey
 }
+
+.description{
+    text-align: center;
+    font-family: fantasy;
+    text-align: center;
+    
+}
+
+.description p{font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 40px;
+     text-align: center;
+     padding-left:10%;
+     padding-right: 10%;
+
+   
+ 
+
+}
+
