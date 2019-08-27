@@ -13,8 +13,9 @@ body{
     
 }
 .logo{
-    height:100px
+    height:140px
 }
+
 
 .nav-bar{
     display: flex;
@@ -30,7 +31,7 @@ body{
     text-align: center;
     font-family: fantasy;
     text-align: center;
-    
+
 }
 
 .description p{font-family: Georgia, 'Times New Roman', Times, serif;
@@ -50,3 +51,41 @@ body{
     line-height: 30px;
 }
 
+.details h2{font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+}
+.details address{text-align: center;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.foot{text-align: center;
+    margin-top: 50px;
+
+}
+.foods{display: flex;
+flex-wrap: wrap;
+width: 100%;
+padding-left: 10%;
+padding-right: 10%
+}
+
+.food-item{
+    display: flex;
+    flex-direction: column;
+    width:25%;
+    padding-right: 2%;
+}
+.food-item img{
+height: 50%;
+}
+.details{
+    background-color: blue;
+}
+.foot{
+    background-color: blue;
+}
+.bar{
+    text-align: center;
+}
