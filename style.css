@@ -4,7 +4,7 @@
 body{
     width:100%;
     margin: 0 auto;
-    padding:0
+    padding:0;
 }
 .header{
     display: flex;
@@ -109,11 +109,17 @@ height: 50%;
 .menu{
     border-top: 50px;
 }
-img{ float: right;
+img{ float: left;
     border:10px;
-    clear: right;
+    clear: left;
     justify-content: space-evenly;
-
-    
-
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:green;
 }
