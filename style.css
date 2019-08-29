@@ -207,3 +207,40 @@ form input {
     display: flex;
   }
 }
+@media (max-width: 500px){
+  .foods{
+    display: flex;
+    flex-direction: column
+  }
+
+  .food-item{
+    width:100%
+  }
+}
+@media (max-width: 500px){
+  footer{
+    font-size:12px;
+    padding-left: 8px;
+    letter-spacing: 0.5px
+  }
+  .join h2{
+    font-size: 14px;
+  }
+  .join{
+    padding-right: 10px;
+    width:100%
+  }
+  .join ul li{
+    padding-bottom: 10px;
+    
+  }
+
+@media (max-width:500px){
+  .menu{
+    font-size: 9px;
+  }
+}
+.menu p{
+  font-size: 10px;
+  width: 100%;
+}
