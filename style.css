@@ -1,214 +1,209 @@
-*{
-    box-sizing: border-box
+* {
+  box-sizing: border-box;
 }
-body{
-    width:100%;
-    margin: 0 auto;
-    padding:0;
-    background: #f3f3f3
+body {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background: #f3f3f3;
 }
-.header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background: white;
-    height:90px;
-    
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+  height: 90px;
 }
-.logo{
-    height:80px
-}
-
-
-.nav-bar{
-    display: flex;
-    align-items: center;
-}
-.nav-bar a{
-    padding-right: 40px;
-    text-decoration: none;
-    color: grey
+.logo {
+  height: 80px;
 }
 
-.description{
-    text-align: center;
-    font-family: fantasy;
-    text-align: center;
-
+.nav-bar {
+  display: flex;
+  align-items: center;
+}
+.nav-bar a {
+  padding-right: 40px;
+  text-decoration: none;
+  color: grey;
 }
 
-.description p{font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    line-height: 40px;
-     text-align: center;
-     padding-left:10%;
-     padding-right: 10%;
-}
-.details{
-    padding-top: -20px;
-}
-.details h2{font-size: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-}
-.details address{text-align: center;
-    font-style: oblique;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-}
-.foot{text-align: center;
-    margin-top: 50px;
-
-}
-.foods{display: flex;
-flex-wrap: wrap;
-width: 100%;
-padding-left: 10%;
-padding-right: 10%
+.description {
+  text-align: center;
+  font-family: fantasy;
+  text-align: center;
 }
 
-.food-item{
-    display: flex;
-    flex-direction: column;
-    width:25%;
-    padding-right: 2%;
+.description p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
 }
-.food-item img{
-height: 50%;
+.details {
+  padding-top: -20px;
 }
-.food-item p{
-    margin-top: -10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.details h2 {
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
 }
-.details{
-    padding: 10px;
-    margin: 50px;
-    height: 20px;
+.details address {
+  text-align: center;
+  font-style: oblique;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
 }
-
-.bar{
-    text-align: center;
-    color:red;
-    font-size: 20px;
+.foot {
+  text-align: center;
+  margin-top: 50px;
 }
-.copyright{
-    text-align: center;
-}
-.menu p{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-    text-align: center;
-    font-weight: bolder;
-}
-.menu h1{
-    color: crimson;
-    text-decoration-style: wavy;
-    text-align: center;
-    text-decoration: none;
-}
-.menu{
-    border-top: 50px;
-}
-img{ float: left;
-    border:10px;
-    clear: left;
-    justify-content: space-evenly;
-}
-a{
-    text-decoration: none;
-}
-a:hover{
-    color:red;
-}
-.base{
-    display: flex;
-    justify-content: space-around;
-
+.foods {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-footer{
-    background: #22283a;
-    margin-bottom:0px;
-    height:100%;
-    color: white
+.food-item {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding-right: 2%;
+}
+.food-item img {
+  height: 50%;
+}
+.food-item p {
+  margin-top: -10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.details {
+  padding: 10px;
+  margin: 50px;
+  height: 20px;
 }
 
-.join ul li{
-    list-style-type: none;
-
+.bar {
+  text-align: center;
+  color: red;
+  font-size: 20px;
 }
-.join{display: flex;
-    flex-direction: column;
-    align-items: baseline
+.copyright {
+  text-align: center;
+}
+.menu p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+}
+.menu h1 {
+  color: crimson;
+  text-decoration-style: wavy;
+  text-align: center;
+  text-decoration: none;
+}
+.menu {
+  border-top: 50px;
+}
+img {
+  float: left;
+  border: 10px;
+  clear: left;
+  justify-content: space-evenly;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+.base {
+  display: flex;
+  justify-content: space-around;
 }
 
-.join ul{
-    margin-left:-40px
+footer {
+  background: #22283a;
+  margin-bottom: 0px;
+  height: 100%;
+  color: white;
 }
 
-/* a:active{
+.join ul li {
+  list-style-type: none;
+}
+}
+.join {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.join ul {
+  margin-left: -40px;
+}
+
+a:active{
     color:green;
 } */
-/* .top-page{ */
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center;
-    word-spacing: 10px;
-    background-color: greenyellow;
-     */
-/* } */
-.pic{
-    display: flex;
-    height: 140px;
-    position: relative;
-    left: 30px;
+
+.pic {
+  display: flex;
+  height: 140px;
+  position: relative;
+  left: 30px;
 }
 
-.form-container{
-    margin:0 auto;
-    height:100%;
-    max-width: 400px;
- margin: 130px auto 80px auto;
- padding: 30px 40px 20px 40px;
- background: white;
- border-radius: 3px;
+.form-container {
+  margin: 0 auto;
+  height: 100%;
+  max-width: 400px;
+  margin: 130px auto 80px auto;
+  padding: 30px 40px 20px 40px;
+  background: white;
+  border-radius: 3px;
 }
-form input{
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #32669a;
-    border-radius: 3px;
-    color: inherit;
-
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #32669a;
+  border-radius: 3px;
+  color: inherit;
 }
-.form-container label{
-    width:60%  
-}
-
-.submit{
-    margin-bottom: 20px;
-    margin-top: 20px;
-    width: 100%;
-    padding: 14px 0;
-    background: rgb(255, 145, 0);
-    border: none;
-    color: white;
-    border-radius: 2px;
-    cursor: pointer;
+.form-container label {
+  width: 60%;
 }
 
-@media(max-width:500px){
-    .nav-bar a{
+.submit {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+  padding: 14px 0;
+  background: rgb(255, 145, 0);
+  border: none;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.order{
+  background: rgb(255, 145, 0);
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .nav-bar a {
     padding-right: 5px;
-    font-size:7px
-    }
+    font-size: 7px;
+  }
 
-    .header{
-        min-width: 60%;
-        display: flex;
-    
-        
-        
-    }
+  .header {
+    min-width: 60%;
+    display: flex;
+  }
 }
