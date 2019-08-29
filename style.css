@@ -137,7 +137,7 @@ footer {
 .join ul li {
   list-style-type: none;
 }
-}
+
 .join {
   display: flex;
   flex-direction: column;
@@ -150,7 +150,7 @@ footer {
 
 a:active{
     color:green;
-} */
+} 
 
 .pic {
   display: flex;
@@ -234,13 +234,14 @@ form input {
     padding-bottom: 10px;
     
   }
-
+}
 @media (max-width:500px){
   .menu{
     font-size: 9px;
   }
+  .menu p{
+    font-size: 10px;
+    width: 100%;
+  }
 }
-.menu p{
-  font-size: 10px;
-  width: 100%;
-}
+
